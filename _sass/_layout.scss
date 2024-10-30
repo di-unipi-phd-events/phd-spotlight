@@ -65,11 +65,13 @@ img {
   .image {
     img {
       height: 220px;
+      width: 100%;
       object-fit: cover;
-      object-position: center;
-      @media screen and (max-width: $on-palm) {
-        width: 100%;
-      }
+      object-position: top;
+      overflow: hidden;
+      // @media screen and (max-width: $on-palm) {
+      //   width: 100%;
+      // }
     }
   }
 }
