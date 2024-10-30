@@ -5,12 +5,9 @@ permalink: /about/
 image: /images/locandina.png
 ---
 
-Webjeda cards is a Bootstrap based theme. Any Bootstrap element can be used in the theme. Read [Webjeda Blog](http://blog.webjeda.com){: target="\_blank"} for jekyll tutorials.
+The first edition of **PhD Spotlight – From Study to Research**, will be held on *Monday 11 November 2024, 14:00 – 16:30*, in the corridor in front of the *Seminar Rooms* (in the Department of Computer Science).
 
-For more themes, visit [jekyll-themes](https://jekyll-themes.com){: target="\_blank"}
+👨🏻‍💻👩🏼‍💻 The event consists of a poster session aimed at introducing MSc students to the research carried out by PhD students. 
+These could become starting points for future dissertations or, perhaps, encourage them to continue their academic career with a PhD.
 
-**Does the theme deserve a star?**
-
-<a class="github-button" href="https://github.com/sharu725/cards" data-style="mega" data-count-href="/sharu725/cards/stargazers" data-count-api="/repos/sharu725/cards#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star sharu725/cards on GitHub">Star</a>
-
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+☕️ In addition, we will provide a free coffee break, kindly offered by the PhD Programme.
