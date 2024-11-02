@@ -10,8 +10,7 @@ title: PhD Spotlight
 email: comunicazione@di.unipi.it
 description: > # this means to ignore newlines until "baseurl:"
   PhD Spotlight - From Study to Research
-  
-  
+
 #baseurl: "/cards" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
@@ -20,11 +19,11 @@ default-image: /images/unavailable.png
 
 #footer
 
-built-by: 
+built-by:
 
 copyright:
-   name: PhD Spotlight Team
-   link: ""
+  name: PhD Spotlight Team
+  link: ""
 
 # Build settings
 permalink: /:title/
@@ -34,17 +33,16 @@ paginate_path: /page:num/
 # Tracker
 
 #social
-facebook: #http://facebook.com/
-quora: #http://quora.com/
-twitter: #http://twitter.com/
-github: #http://github.com/
+# facebook: http://facebook.com/
+# quora: http://quora.com/
+# twitter: http://twitter.com/
+github: https://github.com/phd-spotlight
 
 # Sass style
 sass:
   style: compressed
 
 # Ruby Gems
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll-seo-tag
-
