@@ -10,11 +10,11 @@ layout: default
        <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">
         <div class="card rounded overflow-hidden">  
           <div class="image">
-            {% if post.image %}
-            <img src="{{post.image | relative_url}}" alt="{{post.title}}">
-            {% else %}
-            <img src="{{site.default-image | relative_url}}" alt="{{post.title}}">
-            {% endif %}
+            
+            <img src="/images/png/{{post.author_surname | downcase }}.png" alt="{{post.title}}">
+            
+            <!-- <img src="{{site.default-image | relative_url}}" alt="{{post.title}}"> -->
+            
             <div class="card-body">
               <h2 class="panel-title">{{ post.title | truncate: 100 }}</h2>
               <p class="p-0 my-1 mx-0">

@@ -15,16 +15,14 @@ layout: default
             itemprop="datePublished"
             >{{ page.date | date: "%b %-d, %Y" }}</time 
           >
-          {% if page.author %} •
+          {% if page.author_name %} •
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span itemprop="name">{{ page.author }}</span>
+            <span itemprop="name">{{ page.author_name }} {{ page.author_surname }}</span>
           </span>{% endif %}
         </p>
       </header>
       <div class="post-content" itemprop="articleBody">{{ content }}</div>
-      {% if page.image %}
-      <a href="{{page.image | relative_url}}" class="btn btn-info" download><i class="fa fa-download" aria-hidden="true"></i> Download poster</a>
-      {% endif %}
+      <a href="/images/pdf/{{page.author_surname | downcase }}.pdf" class="btn btn-info" download><i class="fa fa-download" aria-hidden="true"></i> Download poster</a>
     </article>
 
     <div class="next-previous-articles">
