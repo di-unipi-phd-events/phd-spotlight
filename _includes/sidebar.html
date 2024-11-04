@@ -1,12 +1,21 @@
 <div class="col-md-4 mt20">
   <div class="post-img">
-    {% assign post_url = "/images/png" | append: page.id | downcase | append: ".png" %}
+    {% assign post_url = "/images/png/" | append: page.id | downcase | append: ".png" %}
+    {% if page.show %}
     <img
       width="600"
       class="rounded"
       src="{{post_url | relative_url}}"
       alt="{{page.title}}"
     />
+    {% else %}
+    <img
+      width="600"
+      class="rounded"
+      src="{{site.default-image | relative_url}}"
+      alt="{{page.title}}"
+    />
+    {% endif %}
   </div>
 
   <!-- <div class="mt10 recent">

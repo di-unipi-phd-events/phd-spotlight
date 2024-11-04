@@ -2,6 +2,7 @@
 layout: page
 id: about
 title: About
+show: true
 permalink: /about/
 ---
 
