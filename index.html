@@ -4,7 +4,7 @@ layout: default
 
 <div class="home py-4 py-md-5">
   <div class="row">
-    {% assign posts = paginator.posts | sort: 'author' | reverse %}
+    {% assign posts = paginator.posts | sort: 'id' %}
     {% for post in posts %}   
       <div class="col-12 col-md-6 col-lg-4">
        <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">
