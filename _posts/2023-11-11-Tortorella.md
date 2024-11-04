@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Not Available"
+id: tortorella
+show: false
+title: TBA
 category: TBD
-author_name: Domenico
-author_surname: Tortorella
+authors: 
+    - Domenico Tortorella
 ---

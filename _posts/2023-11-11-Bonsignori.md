@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Not Available"
+id: bonsignori
+show: false
+title: TBA
 category: XAI and Federated Learning
-author_name: Valerio
-author_surname: Bonsignori
+authors:
+    - Valerio Bonsignori
 ---

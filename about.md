@@ -1,8 +1,8 @@
 ---
 layout: page
+id: about
 title: About
 permalink: /about/
-image: /images/locandina.png
 ---
 
 The first edition of **PhD Spotlight – From Study to Research**, will be held on *Monday 11 November 2024, 14:00 – 16:30*, in the corridor in front of the *Seminar Rooms* (in the Department of Computer Science).

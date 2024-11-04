@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Not Available"
+id: antonioli
+show: false
+title: TBA
 category: Quantum Computing
-author_name: Giacomo
-author_surname: Antonioli
+authors:
+    - Giacomo Antonioli
 ---

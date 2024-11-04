@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Not Available"
+id: bisicchia
+show: false
+title: TBA
 category: Quantum Computing
-author_name: Giuseppe
-author_surname: Bisicchia
+authors:
+    - Giuseppe Bisicchia
 ---

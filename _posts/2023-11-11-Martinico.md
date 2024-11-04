@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Not Available"
+id: martinico
+show: false
+title: TBA
 category: Approximate Nearest ngh search
-author_name: Silvio
-author_surname: Martinico
+authors: 
+    - Silvio Martinico
 ---
