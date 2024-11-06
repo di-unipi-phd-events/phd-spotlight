@@ -7,7 +7,7 @@
 
 # Site settings
 title: PhD Spotlight
-email: comunicazione@di.unipi.it
+# email: comunicazione@di.unipi.it
 description: > # this means to ignore newlines until "baseurl:"
   PhD Spotlight - From Study to Research
 
@@ -23,7 +23,7 @@ built-by:
 
 copyright:
   name: PhD Spotlight Team
-  link: ""
+  link: "mailto:comunicazione@di.unipi.it?subject=[PhD Spotlight] Request for information"
 
 # Build settings
 permalink: /:title/
