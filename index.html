@@ -12,7 +12,7 @@ layout: default
           <div class="image">
             {% if post.show %}
             {% assign post_url = "/images/png/" | append: post.id | downcase | append: ".png" %}
-              <img src="{{post_url | relative_url}}" alt="{{post.title}}">
+              <img src="{{post_url | relative_url}}" alt="{{post.title}}" loading="lazy">
             {% else %}
             <img src="{{site.default-image | relative_url}}" alt="{{post.title}}">
             {% endif %}

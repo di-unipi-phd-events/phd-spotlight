@@ -1,7 +1,7 @@
 ---
 layout: post
 id: fontanesi
-show: true
+show: false
 title: XAI and Inductive Bias of Deep Graph Networks
 category: Deep Graph Networks, Explainable AI
 authors: 
