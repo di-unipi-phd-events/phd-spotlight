@@ -18,7 +18,7 @@ for pdf_file in "$input_dir"/*.pdf; do
     output_thumbnail="$output_dir/${base_name}.png"
     
     # Convert the PDF to a thumbnail
-    magick -"$pdf_file" -resize 800x450 -quality 70 -strip -define png:compression-level=9 "$output_thumbnail"
+    magick "$pdf_file" -resize 800x450 -quality 70 -strip -define png:compression-level=9 "$output_thumbnail"
     
     # Notify the user
     echo "Thumbnail created for $pdf_file as $output_thumbnail"
