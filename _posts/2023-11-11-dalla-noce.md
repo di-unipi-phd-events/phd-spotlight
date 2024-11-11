@@ -1,7 +1,7 @@
 ---
 layout: post
 id: dalla-noce
-show: false
+show: true
 title: Generate and ground LLM answers using external knowledge
 category: NLP, LLM, GNN, Knowledge Graphs
 authors:
