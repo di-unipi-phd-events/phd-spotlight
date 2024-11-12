@@ -2,7 +2,7 @@
 layout: post
 id: bisicchia
 show: true
-title: Quantum Software Enginnering
+title: Quantum Software Engineering
 category: Quantum Computing, Software Engineering, Quantum Software Engineering
 authors:
     - Giuseppe Bisicchia
