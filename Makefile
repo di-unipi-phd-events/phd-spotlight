@@ -9,3 +9,8 @@ build:
 
 publish: build
 	rclone sync -v _site/ PHDSPOTLIGHT:/web
+
+# to use Makefile do:
+# bash --login
+# rvm use 2.7.8
+# make <rule>
