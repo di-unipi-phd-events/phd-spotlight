@@ -47,16 +47,4 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
-exclude:
-  - favicon.ico
-  - Gemfile
-  - Gemfile.lock
-  - Gemfile.local
-  - Gemfile.github
-  - Makefile
-  - README.md
-  - INSTALL.md
-  - LICENSE
-  - .github/
-  - .gitignore
-  - pdf-to-png.sh
+exclude: [vendor, favicon.ico, Gemfile, Gemfile.lock, Gemfile.local, Gemfile.github, Makefile, README.md, INSTALL.md, LICENSE, .github, .gitignore, pdf-to-png.sh, site_template]

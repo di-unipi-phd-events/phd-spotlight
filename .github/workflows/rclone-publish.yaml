@@ -1,0 +1,39 @@
+name: Deploy Jekyll Site with Rclone
+
+on:
+  # push:
+  #   branches:
+  #     - main  # Sostituisci con il branch da monitorare
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.8
+          bundler-cache: true
+
+      - name: Install Jekyll dependencies
+        run: |
+          make setup
+
+      - name: Build Jekyll site
+        run: |
+          bundle exec jekyll build
+
+      # Step 5: Configurazione di rclone
+      - name: Setup Rclone
+        uses: AnimMouse/setup-rclone@v1
+        with:
+          rclone_config: ${{ secrets.RCLONE_CONFIG }}
+          
+      - run: rclone copy ./_site PHDSPOTLIGHT:/web --progress --delete-during
+        env:
+          RCLONE_CONFIG_PASS: ${{ secrets.RCLONE_CONFIG_PASS }}
